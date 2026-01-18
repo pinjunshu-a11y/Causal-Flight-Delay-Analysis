@@ -1,0 +1,23 @@
+# 数据处理与科学计算
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 数据库连接
+sqlalchemy>=2.0.0
+pymysql>=1.0.0
+
+# 因果推断核心库 (DoWhy 为关键依赖)
+dowhy>=0.11.0
+networkx>=3.0
+
+# 机器学习 (用于因果效应估计和反事实模型)
+scikit-learn>=1.2.0
+
+# 数据可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 辅助工具
+pygraphviz  # 用于生成 SCM/DAG 图，若安装失败可使用 pydot
+pydot>=1.4.0
