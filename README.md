@@ -45,7 +45,7 @@ graph TD
 业务价值：模拟干预政策显示，优化周转安排预期可降低全网延误指数 14.61%。
 
 📂 文件结构
-```mermaid
+bash```
 ├── sql/                          # MySQL 建模脚本 (星型架构)
 ├── src/                          # 核心源代码
 │   ├── 01_data_preprocessing.py  # 数据清洗与 MySQL 存储
@@ -86,7 +86,7 @@ graph TD
 它回答了：“对于这架已经延误的飞机，如果当时多给它 20 分钟周转，它有极大概率降低延误等级。”
 
 ## 安装依赖:
-```mermaid
+bash```
 pip install -r requirements.txt
 ```
 
@@ -95,5 +95,6 @@ pip install -r requirements.txt
 确保本地 MySQL 服务已启动。
 
 修改各脚本中的 DB_CONFIG 连接字符串。
+
 
 ### 项目声明：本项目基于 AI 辅助开发。
