@@ -54,7 +54,7 @@ graph TD
 │   ├── 02_causal_modeling_dag.py     # 因果图构建与识别
 │   ├── 03_do_calculus.py             # 因果图构建与识别
 │   └── 04_counterfactual_analysis.py # 反事实推演与可视化
-├── images/                           # 存放分析图表 (DAG, Forest Plot等)
+├── result_png                        # 存放分析图表 (DAG, Forest Plot等)
 ├── requirements.txt                  # 项目依赖
 └── simsun.ttc                        # 绘图字体支持
 ```
@@ -100,3 +100,4 @@ pip install -r requirements.txt
 
 
 ### 项目声明：本项目基于 AI 辅助开发。
+
