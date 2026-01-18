@@ -56,6 +56,7 @@ bash```
 ├── requirements.txt              # 项目依赖
 └── simsun.ttc                    # 绘图字体支持
 ```
+
 ## 可视化展示
 
 ### 结构因果模型图: 展示变量间的因果拓扑关系。
@@ -98,3 +99,4 @@ pip install -r requirements.txt
 
 
 ### 项目声明：本项目基于 AI 辅助开发。
+
