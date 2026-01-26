@@ -100,7 +100,7 @@ graph TD
 它回答了：“对于这架已经延误的飞机，如果当时多给它 20 分钟周转，它有极大概率降低延误等级。”
 
 ## 安装依赖:
-```mermaid
+```
 pip install -r requirements.txt
 ```
 
@@ -112,3 +112,4 @@ pip install -r requirements.txt
 
 
 ### 项目声明：本项目基于 AI 辅助开发。
+
