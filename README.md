@@ -45,7 +45,7 @@ graph TD
 业务价值：模拟干预政策显示，优化周转安排预期可降低全网延误指数 14.61%。
 
 📂 文件结构
-```mermaid
+```
 ├── result_png/
 ├── sql/
 │   └── data_modeling.sql                       # 将“大宽表”拆分为“星型模型”
@@ -109,5 +109,6 @@ pip install -r requirements.txt
 确保本地 MySQL 服务已启动。
 
 修改各脚本中的 DB_CONFIG 连接字符串。
+
 
 ### 项目声明：本项目基于 AI 辅助开发。
